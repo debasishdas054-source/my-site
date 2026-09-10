@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio & Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Portfolio<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p>Consultant & Specialist delivering modern digital solutions and compliance excellence.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I help businesses streamline operations, ensure end-to-end regulatory compliance, 
+      and deliver clean, high-impact projects on schedule.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section bg-light">
+    <h2>Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Statutory Compliance</h3>
+        <p>Comprehensive audits, vendor governance, and legal registers maintenance.</p>
+      </div>
+      <div class="card">
+        <h3>Project Management</h3>
+        <p>End-to-end milestone tracking, contractor coordination, and operational audits.</p>
+      </div>
+      <div class="card">
+        <h3>Advisory & Reporting</h3>
+        <p>Executive reporting, dashboard analytics, and regulatory risk assessments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Interested in working together? Send a note below:</p>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formFeedback" class="feedback-msg"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
